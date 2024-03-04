@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Providil Engenharia</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="logo01.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+      <link rel="stylesheet" href="./assets/css/ser.css">
+         <link rel="stylesheet" href="./assets/css/casas.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>paginacoite@contato.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address> Conceição do coite bahia</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header-top-btn">Contato</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="logo01.png" alt="Homeverse logo" width="10%">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="logo01.png" alt="Homeverse logo" width="20%">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+             <li>
+                <a href="#" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Casas</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Contato</a>
+              </li>
+
+
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+        
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+    <section class="containerproje">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+             
+            
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+           
+              
+             </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+              <h3>INFORMAÇÃO</h3>
+             
+              
+             </div>
+            </div>
+        </div>
+
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+   <section class="property" id="property">
+        <div class="container">
+
+          <p class="section-subtitle">CASAS PAR ALUGUEIS</p>
+
+          <h2 class="h2 section-title">CONHEÇA CASAS DISPONIVEIS EM CONCEIÇÃO DO COITE:</h2>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="img1.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Frente</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Conceição do coite, Centro</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Conceição do coite</a>
+                  </h3>
+
+                  <p class="card-text">
+                   Bairro da quadra
+                  </p>
+
+                  <ul class="card-list">
+
+                
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Metros quadrados</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+               
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="img2.jpeg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Fundo</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Conceição do coite, Centro</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Delegacia em Crisópolis</a>
+                  </h3>
+
+                  <p class="card-text">
+                 casa 01
+                  </p>
+
+                  <ul class="card-list">
+
+                
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Metros quadrados</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+               
+
+              </div>
+            </li>
+
+            <li>
+            <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="img1.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Parte da Frente</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>conceicao do coite, Centro</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h3 card-title">
+                    <a href="#">coite</a>
+                  </h3>
+
+                  <p class="card-text">
+                      casa 01
+                  </p>
+
+                  <ul class="card-list">
+
+                
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Metros quadrados</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+               
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Área Interna</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>coite, Cidade Jardim</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                   
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"> quarto</a>
+                  </h3>
+
+                  <p class="card-text">
+                   Quarto Disponivel
+                  </p>
+
+                  <ul class="card-list">
+
+                 
+
+                   
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Metros quadrados</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+ <div class="container">
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          >
+         
+        </button>
+        <ul class="image-list">
+          <img class="image-item" src="images/img-1.jpg" alt="img-1" />
+          <img class="image-item" src="images/img-2.jpg" alt="img-2" />
+          <img class="image-item" src="images/img-3.jpg" alt="img-3" />
+          <img class="image-item" src="images/img-4.jpg" alt="img-4" />
+          <img class="image-item" src="images/img-5.jpg" alt="img-5" />
+          <img class="image-item" src="images/img-6.jpg" alt="img-6" />
+          <img class="image-item" src="images/img-7.jpg" alt="img-7" />
+          <img class="image-item" src="images/img-8.jpg" alt="img-8" />
+          <img class="image-item" src="images/img-9.jpg" alt="img-9" />
+          <img class="image-item" src="images/img-10.jpg" alt="img-10" />
+        </ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          <
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+
+            
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Bairro da Quadra</p>
+
+            <h2 class="h2 section-title">Apartamento 2 quartos</h2>
+
+            <p class="about-text">
+          
+Apartamento dois quartos com garagem e 3 banheiros
+
+            </p>
+            
+            <a href="#service" class="btn">Contato</a>
+            <br>
+            <br>
+
+          </div>
+
+        </div>
+          <div class="container">
+
+          <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+          </figure>
+
+     <div class="about-content">
+
+            <p class="section-subtitle">Bairro da Quadra</p>
+
+            <h2 class="h2 section-title">Apartamento 2 quartos</h2>
+
+            <p class="about-text">
+          
+Apartamento dois quartos com garagem e 3 banheiros
+
+            </p>
+
+            <a href="#service" class="btn">Contato</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="features">
+    
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Alugue sua casa com segurança!
+</h2>
+
+              <p class="card-text">Excelentes casas em coite</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Contato</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo01.png" alt="Homeverse logo" width="30%">
+          </a>
+
+          <p class="section-text">
+           Alugue sua casa com segurança, reformadas e revisadas
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>Conceição do Coité-Bahia</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+55 (75) 9811-0436</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>instagramcoite@contado.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+        
+
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Poste sua casa</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Reclamações</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Relatos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sugestões</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Como podemos te ajudar?</a>
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">Minuti Studio</a>. Todos Direitos Reservados
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+   <script src="./assets/js/casas.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
